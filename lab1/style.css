@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.name {
+    color: white;
+    font-size: 35px;
+    line-height: 86px;
+    font-weight: bold;
+}
+.span {
+    color: cyan;
+}
+
+
+
+.header-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 100;
+    gap: 100px;
+    .menu{
+        float: right;
+    }
+    ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 5px;
+    }
+    ul li a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    a:hover{
+        background: #954b9c;
+    }
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    height: 200px; 
+    width: 200px; 
+    gap: 20px;
+
+}
+
+.portfolio-body {
+    background-color: #5f7eb8;
+}
+
+
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-right: -100px;
+}
+.hero-content{
+    width: 600px;
+    float: left;
+}
+.hero-content h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-top: 80px;
+}
+.hero-content h2{
+    color: cyan;
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.hero-content p{
+    font-size: 16px;
+    color: #ebebeb;
+    line-height: 26px;
+    margin: 20px 0 40px;
+    
+}
+
+.image-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    float: right;
+}
+
+.contacts-text {
+    font-size: 25px;
+    white-space: nowrap;
+    color: white;
+}
+
+
+.photo {
+    border-radius: 5%;
+    width: 80%;
+}
