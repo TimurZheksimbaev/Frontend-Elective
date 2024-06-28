@@ -13,7 +13,7 @@
   "name": "comic-release-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "comic.ts",
+  "main": "src/comic.ts",
   "scripts": {
     "build": "webpack"
   },
