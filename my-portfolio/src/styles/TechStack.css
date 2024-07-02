@@ -1,0 +1,56 @@
+
+.logos {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 50px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+
+}
+
+.tech-stack-title {
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.rotate {
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scale {
+  animation: scale 2s ease-in-out infinite alternate;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.move {
+  animation: move 3s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}

@@ -1,0 +1,33 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  padding: 16px;
+  
+  padding-top: 50px;
+}
+.portfolio-container {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.portfolio-title {
+  color: #4b5359;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.project-card {
+  flex: 1 1 300px; 
+  margin: 8px; 
+  transition: transform 0.3s ease-in-out;
+  
+} 
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+
+
+

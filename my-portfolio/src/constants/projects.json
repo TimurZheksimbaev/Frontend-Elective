@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Golang authentication",
+        "description": "An authorization service, which is implemented using Golang, Postgres and JWT tokens, with the ability to singup and login. When you login service gives you an authorization token, for future requests",
+        "tech_stack": ["Golang", "JWT tokens", "gin", "gorm", "PostgreSQL"],
+        "link": "https://github.com/TimurZheksimbaev/Golang-Authentication",
+        "image": "https://www.freecodecamp.org/news/content/images/2021/10/golang.png"
+    },
+    {
+        "name": "VK Notes App",
+        "description": "Firstly it was a task for an VK internship, but then i made my own project out of it. It let's you manipulate your notes, create, update, delete. You can visit site by this link: https://vknotesapp-frontend.onrender.com/",
+        "tech_stack": ["Python", "Django", "React", "PostgreSQL"],
+        "link": "https://github.com/TimurZheksimbaev/VKNotesApp",
+        "image": "https://www.saaspegasus.com/static/images/web/modern-javascript/django-react-header.51a983c82dcb.png"
+    },
+    {
+        "name": "gRPC Tic-Tac-Toe",
+        "description": "A simple Tic Tac Toe using gRPC.",
+        "tech_stack": ["Python", "gRPC"],
+        "link": "https://github.com/TimurZheksimbaev/gRPC-TicTacToe",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/800px-Tic_tac_toe.svg.png"
+    },
+    {
+        "name": "iOS Film Project",
+        "description": "An iOS app where you can search for films, filter them, like and save films. App has a responsive and user friendly UI, and have many screens and functions. It is a group project for summer elective iOS development. Checkout github repo for screenshots from app.",
+        "tech_stack": ["Swift", "UIKit", "Firebase"],
+        "link": "https://github.com/TimurZheksimbaev/Film-IOS-Project",
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2023/11/greatest-movies-of-all-time.jpg"
+    },
+    {
+        "name": "PSO Music Generation",
+        "description": "Particle Swarm Optimization (PSO) is an optimization algorithm, which is based on genetic algorithms. This project uses PSO for generating music, with melody and accompaniment. Checkout github repo to listen to some generated melodies.",
+        "tech_stack": ["Java", "Jfugue"],
+        "link": "https://github.com/TimurZheksimbaev/PSO-Music-Generation",
+        "image": "https://cdn.slidesharecdn.com/ss_thumbnails/particleswarmoptimization-220517074304-b614f474-thumbnail.jpg?width=640&height=640&fit=bounds"
+    },
+    {
+        "name": "Solidity project",
+        "description": "A simple solidity and foundry project, which has two smart contracts, with ability to send eth to them and convert price.",
+        "tech_stack": ["Solidity", "Foundry"],
+        "link": "https://github.com/TimurZheksimbaev/SolidityProject",
+        "image": "https://book.getfoundry.sh/images/foundry-banner.png"
+    }
+]
