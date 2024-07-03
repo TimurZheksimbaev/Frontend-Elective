@@ -1,19 +1,22 @@
-
 .logos {
   display: flex;
-  /* justify-content: space-between; */
-  gap: 50px;
-  padding-left: 30px;
-  padding-bottom: 50px;
-
+  justify-content: space-evenly;
+  padding-bottom: 100px;
 }
 
-.tech-stack-title {
-    color: white;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.tech-stack-container {
+  margin: 10px;
+  padding-top: 50px;
+  border-radius: 10px;
+}
 
+
+.tech-stack-title {
+  color: white;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 40px;
 }
 
 .rotate {

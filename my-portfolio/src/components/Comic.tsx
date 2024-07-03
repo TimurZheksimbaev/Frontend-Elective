@@ -31,16 +31,12 @@ function Comic() {
 
 
 
-    return (
-        <div className="main-div">
-            
-            <div className="comic-container">
-                <h2>{comicData ? comicData.safe_title : "Loading..."}</h2>
-                <p>{comicData ? date: "Loading..."}</p>
-                <img src={comicData?.img} alt={comicData?.alt} />
-            </div>
+    return (            
+        <div className="comic-container">
+            <h2>{comicData ? comicData.safe_title : "Loading..."}</h2>
+            <p>{comicData ? date: "Loading..."}</p>
+            <img src={comicData?.img} alt={comicData?.alt} />
         </div>
-
     )
 }
 

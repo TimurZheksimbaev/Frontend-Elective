@@ -1,12 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
 }
 
 .hero-and-tech-stack {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  margin: 5px;
+  border-radius: 10px;
 }
 
 .name {
@@ -15,13 +18,11 @@
   line-height: 86px;
   font-weight: bold;
 }
+
 .span {
   color: cyan;
 }
 
-a {
-  margin: 20px;
-}
 
 .header-section {
   padding: 20px;
@@ -34,7 +35,8 @@ a {
 
 .menu {
   display: flex;
-  gap: 20px;
+  justify-content: space-evenly;
+  float: right;
 }
 
 ul li {
@@ -51,7 +53,8 @@ ul li a {
   border-radius: 3px;
   text-transform: uppercase;
 }
-a:hover {
+
+.menu a:hover {
   background: #954b9c;
 }
 
@@ -62,7 +65,8 @@ a:hover {
 @keyframes scaleContactLogo {
   from {
     transform: scale(1);
-  } to {
+  }
+  to {
     transform: scale(1.5);
   }
 }
@@ -72,36 +76,47 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  height: 200px;
   width: 200px;
-  gap: 20px;
+
+}
+
+.contacts a {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .portfolio-body {
   /* background-color: #5f7eb8; */
-
   padding: 0 100px;
 }
 
 .hero {
-  /* height: 100vh; */
-  padding-left: 200px;
+  padding-left: 100px;
   display: flex;
-  align-items: center;
-  margin-right: -100px;
 }
+
 .hero-content {
-  width: 600px;
+  width: 800px;
   float: left;
-  animation: moveHeroContent 0.7s ease-in-out  alternate;
+  animation: moveHeroContent 0.7s ease-in-out alternate;
 }
+
+.image-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  float: right;
+}
+
 
 @keyframes moveHeroContent {
   from {
-      transform: translateX(-1000px);
-  } to {
-      transform: translateX(0px);
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translateX(0px);
   }
 }
 
@@ -125,13 +140,6 @@ a:hover {
   margin: 20px 0 40px;
 }
 
-.image-contacts {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 200px;
-  float: right;
-}
 
 .contacts-text {
   font-size: 25px;
@@ -147,13 +155,17 @@ a:hover {
 @keyframes floatPhoto {
   from {
     transform: translateX(5px);
-  } to {
+  }
+  to {
     transform: translateY(-5px);
-  } from {
+  }
+  from {
     transform: translateX(-5px);
-  } to {
+  }
+  to {
     transform: translateY(5px);
-  } to {
+  }
+  to {
     transform: translateX(0px);
   }
 }

@@ -1,0 +1,28 @@
+.certificates-grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.certificate-card img {
+  border-radius: 10px;
+  animation: slideInFromBottom 0.7s ease-out forwards;
+  animation: slideInFromTop 0.7s ease-out forwards; 
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

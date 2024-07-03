@@ -1,33 +1,43 @@
 import "../styles/TechStack.css"
+import pulse from "react-animations/lib/pulse"
+import flip from "react-animations/lib/flip"
+import bounce from "react-animations/lib/bounce"
+import hinge from "react-animations/lib/hinge"
+import swing from "react-animations/lib/swing"
+import tada from "react-animations/lib/tada"
+
+import styled, { keyframes } from 'styled-components'
 
 function TechStack() {
+    const Bounce = styled.div`animation: 2s ${keyframes`${bounce}`} infinite`;
+    const Flip = styled.div`animation: 2s ${keyframes`${flip}`} infinite `
+    const Pulse = styled.div`animation: 2s ${keyframes`${pulse}`} infinite `
+    const Hinge = styled.div`animation: 3s ${keyframes`${hinge}`} infinite `
+    const Swing = styled.div`animation: 4s ${keyframes`${swing}`} infinite `
+    const Tada = styled.div`animation: 2s ${keyframes`${tada}`} infinite `
+
+
+
     return (
-        <div >
+        <div className="tech-stack-container">
              <h1 className="tech-stack-title">Technological stack</h1> 
 
             <div className="logos">
-            
-                <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                <Bounce><img height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></Bounce>
                 <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" />
                 <img className="scale" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg" />
-                <img className="move" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
-                <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" />
-                <img className="move" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                <Swing><img height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" /></Swing>
+                <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                 <img className="scale" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" />
-                <img className="move" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg" />
-                <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
-                <img className="scale" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
-                <img className="move" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                <Pulse><img height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg" /></Pulse>
+                <img height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                <Tada><img height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></Tada>
                 <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-                <img className="scale" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
-                <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-original.svg" />
-                <img className="move" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" />
-                <img className="scale" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+                <Flip><img height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" /></Flip>
+                <Hinge><img height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-original.svg" /></Hinge>
+                <img height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" />
                 <img className="move" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
                 <img className="scale" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-                <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" />
-                <img className="rotate" height={50} width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
-          
             </div>
         </div>
     )

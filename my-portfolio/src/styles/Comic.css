@@ -1,14 +1,6 @@
-.main-div {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .comic-container { 
+    display: flex;
+    flex-direction: column;
     background-color: #fff; 
     border: 1px solid #ddd;
     padding: 20px; 
@@ -16,13 +8,14 @@
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h2 {
+
+.comic-container h2 {
     color: #333;
 }
-p {
+.comic-container p {
     color: #666;
 }
-img {
+.comic-container img {
     max-width: 100%;
     height: auto;
     display: block;
