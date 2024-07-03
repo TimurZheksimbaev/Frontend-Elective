@@ -1,10 +1,10 @@
 import "../styles/TechStack.css"
-import pulse from "react-animations/lib/pulse"
-import flip from "react-animations/lib/flip"
-import bounce from "react-animations/lib/bounce"
-import hinge from "react-animations/lib/hinge"
-import swing from "react-animations/lib/swing"
-import tada from "react-animations/lib/tada"
+import {pulse} from "react-animations"
+import {flip} from "react-animations"
+import {bounce} from "react-animations"
+import {hinge} from "react-animations"
+import {swing} from "react-animations"
+import {tada} from "react-animations"
 
 import styled, { keyframes } from 'styled-components'
 

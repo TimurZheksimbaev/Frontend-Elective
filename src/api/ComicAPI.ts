@@ -1,10 +1,5 @@
-import dayjs from 'dayjs';
-import relativeTime from 'dayjs/plugin/relativeTime';
 import ComicData from './ComicModel';
 
-
-
-const email: string = 't.zheksimbaev@innopolis.university';
 const baseUrl: URL = new URL('https://fwd.innopolis.university/api/');
 
 

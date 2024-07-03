@@ -3,7 +3,7 @@ import "../styles/Project.css"
 type ProjectData = {
     name: string,
     description: string, 
-    tech_stack: Array<String>,
+    tech_stack: Array<string>,
     link: string, 
     image: string
 }

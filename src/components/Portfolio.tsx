@@ -3,7 +3,7 @@ import projects from "../constants/projects.json";
 import "../styles/Portfolio.css";
 
 import styled, { keyframes } from "styled-components";
-import fadeInUp from "react-animations/lib/fadeInUp";
+import {fadeInUp} from "react-animations";
 
 const Portfolio = () => {
   const FadeInUp = styled.div`
